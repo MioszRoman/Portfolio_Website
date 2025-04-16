@@ -1,11 +1,7 @@
 import streamlit as st
 import pandas
 
-content = """
-Python, piercing & Poseidon 🐍💉⚡ |\n
-Junior dev in progress | \n
-Books and code make me happy 📚
-"""
+
 
 st.set_page_config(layout="wide")
 
@@ -20,6 +16,11 @@ with col1:
     st.image("images/photo.jpg", width=300)
 
 with col2:
+    content = """
+    Python, piercing & Poseidon 🐍💉⚡ |\n
+    Junior dev in progress | \n
+    Books and code make me happy 📚
+    """
     st.info(content)
 
 st.write("I will show you the projects:")
